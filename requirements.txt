@@ -9,3 +9,4 @@ flask_cors
 python-jose-cryptodome
 jose
 ipython
+flask_moment
