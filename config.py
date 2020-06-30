@@ -1,3 +1,5 @@
+import os
+
 # Connect to the database
 SCHEME = 'postgresql'
 DATABASE_NAME = "capstone"
