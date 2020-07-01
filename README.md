@@ -66,11 +66,11 @@ password: Producer@123
 
 ## Demo URL
 
-[https://capstonecast.herokuapp.com/] (https://capstonecast.herokuapp.com/)
+<https://capstonecast.herokuapp.com>
 
 Every API endpoint can be tested by first generating a valid JWT for each user by accessing this link:
 
-[https://coffechats.auth0.com/authorize?audience=capstonecast&response_type=token&client_id=49SAF4GfFbFsFNyZix0t5ywzk8oNQjLy&redirect_url=http://localhost:8080/login-results] (https://coffechats.auth0.com/authorize?audience=capstonecast&response_type=token&client_id=49SAF4GfFbFsFNyZix0t5ywzk8oNQjLy&redirect_url=http://localhost:8080/login-results)
+<https://coffechats.auth0.com/authorize?audience=capstonecast&response_type=token&client_id=49SAF4GfFbFsFNyZix0t5ywzk8oNQjLy&redirect_uri=http://localhost:8080/login-results>
 
 The JWTs are valid for 48 hours. Once, you have the access token, use Postman or CURL to hit and test the endpoints.
 
