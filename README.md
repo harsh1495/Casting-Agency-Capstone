@@ -1,4 +1,8 @@
 # Casting Agency
+Casting Agency (The Movie Company) is responsible for making movies and managing and assigning actors to those movies.
+
+## Motivation
+This project is done as part of the capstone project in Udacity's Full Stack Developer Nanodegree.
 
 ## Getting Started
 
@@ -45,25 +49,67 @@ The API has 3 users, each with their own pre-configured permissions:
 
 1. Assistant
 
+Credentials:
 ```
+
 username: assistant@moviecompany.com
 password: Assistant@123
+
+```
+
+Permissions:
+```
+
+view:actor (Get a list of actors)
+view:movie (Get a list of movies)
+
 ```
 
 2. Director
 
+Credentials:
 ```
+
 username: director@moviecompany.com
 password: Director@123
+
+```
+
+Permissions:
+```
+
+view:actor (Get a list of actors)
+view:movie (Get a list of movies)
+post:actor (Insert a new actor)
+delete:actor (Remove an existing actor)
+patch:actor (Update an existing actor)
+patch:movie (Uodate an existing movie)
+
 ```
 
 3. Executive Producer
 
-```
-username: producer@moviecompany.com
-password: Producer@123
+Credentials:
 ```
 
+username: producer@moviecompany.com
+password: Producer@123
+
+```
+
+Permissions:
+```
+
+view:actor (Get a list of actors)
+view:movie (Get a list of movies)
+post:actor (Insert a new actor)
+post:movie (Insert a new movie)
+delete:actor (Remove an existing actor)
+delete:movie (Remove an existing movie)
+patch:actor (Update an existing actor)
+patch:movie (Uodate an existing movie)
+
+```
 ## Demo URL
 
 <https://capstonecast.herokuapp.com>
